@@ -1,0 +1,141 @@
+11 Oct 2022 - 13:22:30.858 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Starting CollegemanagementsystemrestApplication using Java 17.0.3 on Misti with PID 7704 (C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest\target\classes started by Barsha in C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest)
+11 Oct 2022 - 13:22:30.871 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - No active profile set, falling back to 1 default profile: "default"
+11 Oct 2022 - 13:22:31.017 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11 Oct 2022 - 13:22:31.018 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11 Oct 2022 - 13:22:32.680 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11 Oct 2022 - 13:22:32.859 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 150 ms. Found 3 JPA repository interfaces.
+11 Oct 2022 - 13:22:34.563 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+11 Oct 2022 - 13:22:34.585 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11 Oct 2022 - 13:22:34.587 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+11 Oct 2022 - 13:22:34.809 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11 Oct 2022 - 13:22:34.810 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3788 ms
+11 Oct 2022 - 13:22:35.188 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11 Oct 2022 - 13:22:35.359 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+11 Oct 2022 - 13:22:35.795 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11 Oct 2022 - 13:22:36.104 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11 Oct 2022 - 13:22:36.516 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11 Oct 2022 - 13:22:36.562 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11 Oct 2022 - 13:22:37.676 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11 Oct 2022 - 13:22:37.694 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 13:22:38.496 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11 Oct 2022 - 13:22:38.674 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11 Oct 2022 - 13:22:38.870 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11 Oct 2022 - 13:22:39.101 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+11 Oct 2022 - 13:22:39.102 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11 Oct 2022 - 13:22:39.130 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11 Oct 2022 - 13:22:39.153 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11 Oct 2022 - 13:22:39.532 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Started CollegemanagementsystemrestApplication in 9.568 seconds (JVM running for 10.932)
+11 Oct 2022 - 13:22:45.629 [http-nio-8085-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11 Oct 2022 - 13:22:45.630 [http-nio-8085-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11 Oct 2022 - 13:22:45.635 [http-nio-8085-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+11 Oct 2022 - 13:22:52.456 [http-nio-8085-exec-1] INFO  com.cms.service.CourseService - get course by id
+11 Oct 2022 - 13:32:50.718 [http-nio-8085-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [javax.servlet.ServletException: User not found.]
+11 Oct 2022 - 13:33:35.791 [http-nio-8085-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [javax.servlet.ServletException: User not found.]
+11 Oct 2022 - 13:39:27.840 [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+11 Oct 2022 - 13:39:27.863 [RMI TCP Connection(20)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11 Oct 2022 - 13:39:27.869 [RMI TCP Connection(20)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+11 Oct 2022 - 13:39:27.889 [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 13:39:27.897 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11 Oct 2022 - 13:39:27.915 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11 Oct 2022 - 16:44:13.826 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Starting CollegemanagementsystemrestApplication using Java 17.0.3 on Misti with PID 18364 (C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest\target\classes started by Barsha in C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest)
+11 Oct 2022 - 16:44:13.830 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - No active profile set, falling back to 1 default profile: "default"
+11 Oct 2022 - 16:44:13.940 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11 Oct 2022 - 16:44:13.940 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11 Oct 2022 - 16:44:15.617 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11 Oct 2022 - 16:44:15.722 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+11 Oct 2022 - 16:44:16.622 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+11 Oct 2022 - 16:44:16.641 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11 Oct 2022 - 16:44:16.641 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+11 Oct 2022 - 16:44:16.763 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11 Oct 2022 - 16:44:16.764 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2822 ms
+11 Oct 2022 - 16:44:17.031 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11 Oct 2022 - 16:44:17.151 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+11 Oct 2022 - 16:44:17.442 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11 Oct 2022 - 16:44:17.610 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11 Oct 2022 - 16:44:18.100 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11 Oct 2022 - 16:44:18.139 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11 Oct 2022 - 16:44:19.273 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11 Oct 2022 - 16:44:19.288 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 16:44:20.206 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11 Oct 2022 - 16:44:20.484 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11 Oct 2022 - 16:44:21.743 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11 Oct 2022 - 16:44:22.073 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+11 Oct 2022 - 16:44:22.080 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11 Oct 2022 - 16:44:22.139 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11 Oct 2022 - 16:44:22.199 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11 Oct 2022 - 16:44:22.630 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Started CollegemanagementsystemrestApplication in 9.75 seconds (JVM running for 11.275)
+11 Oct 2022 - 16:44:27.150 [http-nio-8085-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11 Oct 2022 - 16:44:27.150 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11 Oct 2022 - 16:44:27.152 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11 Oct 2022 - 16:45:13.113 [http-nio-8085-exec-3] INFO  com.cms.service.InstructorService - Inside Service Layer!!Tue Oct 11 16:45:13 IST 2022
+11 Oct 2022 - 16:47:06.528 [http-nio-8085-exec-6] INFO  com.cms.service.CourseService - Inside Service Layer!!Tue Oct 11 16:47:06 IST 2022
+11 Oct 2022 - 16:48:32.712 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+11 Oct 2022 - 16:48:32.791 [Thread-4] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11 Oct 2022 - 16:48:32.798 [Thread-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+11 Oct 2022 - 16:48:32.821 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 16:48:32.831 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11 Oct 2022 - 16:48:32.878 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11 Oct 2022 - 16:48:33.152 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Starting CollegemanagementsystemrestApplication using Java 17.0.3 on Misti with PID 18364 (C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest\target\classes started by Barsha in C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest)
+11 Oct 2022 - 16:48:33.153 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - No active profile set, falling back to 1 default profile: "default"
+11 Oct 2022 - 16:48:34.105 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11 Oct 2022 - 16:48:34.169 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+11 Oct 2022 - 16:48:34.498 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+11 Oct 2022 - 16:48:34.500 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11 Oct 2022 - 16:48:34.500 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+11 Oct 2022 - 16:48:34.559 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11 Oct 2022 - 16:48:34.559 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1396 ms
+11 Oct 2022 - 16:48:34.646 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11 Oct 2022 - 16:48:34.656 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+11 Oct 2022 - 16:48:34.688 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+11 Oct 2022 - 16:48:34.689 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11 Oct 2022 - 16:48:34.902 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11 Oct 2022 - 16:48:34.903 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 16:48:35.226 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11 Oct 2022 - 16:48:35.295 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11 Oct 2022 - 16:48:35.394 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11 Oct 2022 - 16:48:35.512 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+11 Oct 2022 - 16:48:35.513 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11 Oct 2022 - 16:48:35.515 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11 Oct 2022 - 16:48:35.521 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11 Oct 2022 - 16:48:35.774 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Started CollegemanagementsystemrestApplication in 2.735 seconds (JVM running for 264.419)
+11 Oct 2022 - 16:48:35.779 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11 Oct 2022 - 16:48:41.067 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+11 Oct 2022 - 16:48:41.080 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11 Oct 2022 - 16:48:41.090 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 16:48:41.090 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+11 Oct 2022 - 16:48:41.101 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+11 Oct 2022 - 16:48:41.215 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Starting CollegemanagementsystemrestApplication using Java 17.0.3 on Misti with PID 18364 (C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest\target\classes started by Barsha in C:\Users\Barsha\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\collegemanagementsystemrest\collegemanagementsystemrest)
+11 Oct 2022 - 16:48:41.215 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - No active profile set, falling back to 1 default profile: "default"
+11 Oct 2022 - 16:48:41.620 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11 Oct 2022 - 16:48:41.648 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+11 Oct 2022 - 16:48:41.775 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+11 Oct 2022 - 16:48:41.777 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11 Oct 2022 - 16:48:41.777 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+11 Oct 2022 - 16:48:41.815 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11 Oct 2022 - 16:48:41.815 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 593 ms
+11 Oct 2022 - 16:48:41.872 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11 Oct 2022 - 16:48:41.879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+11 Oct 2022 - 16:48:41.898 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+11 Oct 2022 - 16:48:41.899 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11 Oct 2022 - 16:48:42.070 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11 Oct 2022 - 16:48:42.071 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 16:48:42.293 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11 Oct 2022 - 16:48:42.344 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11 Oct 2022 - 16:48:42.425 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11 Oct 2022 - 16:48:42.507 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+11 Oct 2022 - 16:48:42.508 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11 Oct 2022 - 16:48:42.509 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11 Oct 2022 - 16:48:42.516 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11 Oct 2022 - 16:48:42.669 [restartedMain] INFO  c.c.CollegemanagementsystemrestApplication - Started CollegemanagementsystemrestApplication in 1.493 seconds (JVM running for 271.315)
+11 Oct 2022 - 16:48:42.672 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11 Oct 2022 - 16:48:47.473 [http-nio-8085-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11 Oct 2022 - 16:48:47.474 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11 Oct 2022 - 16:48:47.476 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11 Oct 2022 - 16:48:47.578 [http-nio-8085-exec-1] INFO  com.cms.service.CourseService - Inside Service Layer!!Tue Oct 11 16:48:47 IST 2022
+11 Oct 2022 - 17:08:21.052 [http-nio-8085-exec-5] INFO  com.cms.service.InstructorService - get instructor by id
+11 Oct 2022 - 17:09:45.373 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+11 Oct 2022 - 17:09:45.391 [RMI TCP Connection(30)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11 Oct 2022 - 17:09:45.392 [RMI TCP Connection(30)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+11 Oct 2022 - 17:09:45.401 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11 Oct 2022 - 17:09:45.402 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+11 Oct 2022 - 17:09:45.411 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
